@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		526ACDBA16C4743C001A14FB /* nav32.png in Resources */ = {isa = PBXBuildFile; fileRef = 526ACDB816C4743B001A14FB /* nav32.png */; };
+		526ACDBB16C4743C001A14FB /* nav44.png in Resources */ = {isa = PBXBuildFile; fileRef = 526ACDB916C4743B001A14FB /* nav44.png */; };
+		52B196F216C3637B0069A5C7 /* CustomTweetViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B196F116C3637B0069A5C7 /* CustomTweetViewCell.m */; };
+		52B196F516C36BE50069A5C7 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B196F416C36BE50069A5C7 /* Social.framework */; };
+		52B196F816C36CC30069A5C7 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B196F716C36CC30069A5C7 /* PostViewController.m */; };
+		52B1970516C372D50069A5C7 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B1970416C372D50069A5C7 /* twitter.png */; };
 		52FD53DC16C2ED0E00BBF9EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FD53DB16C2ED0E00BBF9EB /* UIKit.framework */; };
 		52FD53DE16C2ED0E00BBF9EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FD53DD16C2ED0E00BBF9EB /* Foundation.framework */; };
 		52FD53E016C2ED0E00BBF9EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FD53DF16C2ED0E00BBF9EB /* CoreGraphics.framework */; };
@@ -17,10 +23,20 @@
 		52FD53F016C2ED0E00BBF9EB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52FD53EF16C2ED0E00BBF9EB /* Default@2x.png */; };
 		52FD53F216C2ED0E00BBF9EB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52FD53F116C2ED0E00BBF9EB /* Default-568h@2x.png */; };
 		52FD53F516C2ED0E00BBF9EB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FD53F316C2ED0E00BBF9EB /* MainStoryboard.storyboard */; };
-		52FD53F816C2ED0E00BBF9EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FD53F716C2ED0E00BBF9EB /* ViewController.m */; };
+		52FD540016C2F0F500BBF9EB /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FD53FF16C2F0F500BBF9EB /* FeedViewController.m */; };
+		52FD540316C2F74800BBF9EB /* TweetDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FD540216C2F74800BBF9EB /* TweetDetailViewController.m */; };
+		52FD540916C303D800BBF9EB /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FD540816C303D800BBF9EB /* FavoritesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		526ACDB816C4743B001A14FB /* nav32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav32.png; sourceTree = "<group>"; };
+		526ACDB916C4743B001A14FB /* nav44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav44.png; sourceTree = "<group>"; };
+		52B196F016C3637B0069A5C7 /* CustomTweetViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTweetViewCell.h; sourceTree = "<group>"; };
+		52B196F116C3637B0069A5C7 /* CustomTweetViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTweetViewCell.m; sourceTree = "<group>"; };
+		52B196F416C36BE50069A5C7 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		52B196F616C36CC30069A5C7 /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		52B196F716C36CC30069A5C7 /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		52B1970416C372D50069A5C7 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = ../twitter.png; sourceTree = "<group>"; };
 		52FD53D716C2ED0E00BBF9EB /* TwitterClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FD53DB16C2ED0E00BBF9EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		52FD53DD16C2ED0E00BBF9EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,8 +51,12 @@
 		52FD53EF16C2ED0E00BBF9EB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		52FD53F116C2ED0E00BBF9EB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		52FD53F416C2ED0E00BBF9EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		52FD53F616C2ED0E00BBF9EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		52FD53F716C2ED0E00BBF9EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52FD53FE16C2F0F500BBF9EB /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedViewController.h; path = ../FeedViewController.h; sourceTree = "<group>"; };
+		52FD53FF16C2F0F500BBF9EB /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedViewController.m; path = ../FeedViewController.m; sourceTree = "<group>"; };
+		52FD540116C2F74800BBF9EB /* TweetDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetDetailViewController.h; sourceTree = "<group>"; };
+		52FD540216C2F74800BBF9EB /* TweetDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetDetailViewController.m; sourceTree = "<group>"; };
+		52FD540716C303D800BBF9EB /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FavoritesViewController.h; path = ../FavoritesViewController.h; sourceTree = "<group>"; };
+		52FD540816C303D800BBF9EB /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FavoritesViewController.m; path = ../FavoritesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B196F516C36BE50069A5C7 /* Social.framework in Frameworks */,
 				52FD53DC16C2ED0E00BBF9EB /* UIKit.framework in Frameworks */,
 				52FD53DE16C2ED0E00BBF9EB /* Foundation.framework in Frameworks */,
 				52FD53E016C2ED0E00BBF9EB /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +94,7 @@
 		52FD53DA16C2ED0E00BBF9EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52B196F416C36BE50069A5C7 /* Social.framework */,
 				52FD53DB16C2ED0E00BBF9EB /* UIKit.framework */,
 				52FD53DD16C2ED0E00BBF9EB /* Foundation.framework */,
 				52FD53DF16C2ED0E00BBF9EB /* CoreGraphics.framework */,
@@ -85,9 +107,17 @@
 			children = (
 				52FD53EA16C2ED0E00BBF9EB /* AppDelegate.h */,
 				52FD53EB16C2ED0E00BBF9EB /* AppDelegate.m */,
+				52FD53FE16C2F0F500BBF9EB /* FeedViewController.h */,
+				52FD53FF16C2F0F500BBF9EB /* FeedViewController.m */,
 				52FD53F316C2ED0E00BBF9EB /* MainStoryboard.storyboard */,
-				52FD53F616C2ED0E00BBF9EB /* ViewController.h */,
-				52FD53F716C2ED0E00BBF9EB /* ViewController.m */,
+				52B196F616C36CC30069A5C7 /* PostViewController.h */,
+				52B196F716C36CC30069A5C7 /* PostViewController.m */,
+				52B196F016C3637B0069A5C7 /* CustomTweetViewCell.h */,
+				52B196F116C3637B0069A5C7 /* CustomTweetViewCell.m */,
+				52FD540716C303D800BBF9EB /* FavoritesViewController.h */,
+				52FD540816C303D800BBF9EB /* FavoritesViewController.m */,
+				52FD540116C2F74800BBF9EB /* TweetDetailViewController.h */,
+				52FD540216C2F74800BBF9EB /* TweetDetailViewController.m */,
 				52FD53E216C2ED0E00BBF9EB /* Supporting Files */,
 			);
 			path = TwitterClient;
@@ -96,6 +126,9 @@
 		52FD53E216C2ED0E00BBF9EB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				526ACDB816C4743B001A14FB /* nav32.png */,
+				526ACDB916C4743B001A14FB /* nav44.png */,
+				52B1970416C372D50069A5C7 /* twitter.png */,
 				52FD53E316C2ED0E00BBF9EB /* TwitterClient-Info.plist */,
 				52FD53E416C2ED0E00BBF9EB /* InfoPlist.strings */,
 				52FD53E716C2ED0E00BBF9EB /* main.m */,
@@ -163,6 +196,9 @@
 				52FD53F016C2ED0E00BBF9EB /* Default@2x.png in Resources */,
 				52FD53F216C2ED0E00BBF9EB /* Default-568h@2x.png in Resources */,
 				52FD53F516C2ED0E00BBF9EB /* MainStoryboard.storyboard in Resources */,
+				52B1970516C372D50069A5C7 /* twitter.png in Resources */,
+				526ACDBA16C4743C001A14FB /* nav32.png in Resources */,
+				526ACDBB16C4743C001A14FB /* nav44.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +211,11 @@
 			files = (
 				52FD53E816C2ED0E00BBF9EB /* main.m in Sources */,
 				52FD53EC16C2ED0E00BBF9EB /* AppDelegate.m in Sources */,
-				52FD53F816C2ED0E00BBF9EB /* ViewController.m in Sources */,
+				52FD540016C2F0F500BBF9EB /* FeedViewController.m in Sources */,
+				52FD540316C2F74800BBF9EB /* TweetDetailViewController.m in Sources */,
+				52FD540916C303D800BBF9EB /* FavoritesViewController.m in Sources */,
+				52B196F216C3637B0069A5C7 /* CustomTweetViewCell.m in Sources */,
+				52B196F816C36CC30069A5C7 /* PostViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +332,7 @@
 				52FD53FD16C2ED0E00BBF9EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
